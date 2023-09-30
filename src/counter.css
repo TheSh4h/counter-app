@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+input{
+    height: 100%;
+    outline: none;
+    width: 100%;
+    border: none;
+    background: whitesmoke;
+    text-align: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font: bolder;
+    font-weight: 700;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(72, 12, 129);
+    color: white;
+    border: none;
+}
