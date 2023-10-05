@@ -22,7 +22,7 @@ const DisplayUsers = () => {
                 return <li key={id}>
                     {user}
                     <button className="btn-delete" onClick={() => deleteUser(id)}>
-                    <MdDeleteForever className="delete-icon"/>
+                      <MdDeleteForever className="delete-icon"/>
                     </button>
                 </li>
             })}
