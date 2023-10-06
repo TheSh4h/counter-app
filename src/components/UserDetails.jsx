@@ -1,5 +1,5 @@
 import React from "react";
-import { DeleteAllUser } from "./DeleteAllUser";
+import DeleteAllUser from "./DeleteAllUser";
 import styled from "styled-components";
 import { fakeUserData } from "../api";
 import { useDispatch } from "react-redux";
@@ -10,7 +10,7 @@ const UserDetails = () => {
 
   const dispatch = useDispatch()
   const addNewUser = (name) => {
-    console.log(name)
+    //console.log(name)
     dispatch(addUser(name))
   }
   return (
